@@ -1,0 +1,85 @@
+﻿/* 文字コードの設定 */
+@charset "UTF-8";
+
+/* ちゃんと設定できたかチェック */
+/* 文字周りの設定 */
+a{
+color:#fff;
+text-decoration:none;
+}
+li{
+list-style-type:none;
+}
+body{
+background:#EEE url(../img/bg.gif);
+font-size:.9em;
+}
+#wrapper
+{
+
+ width:950px;
+margin:0 auto;
+background:#863433;
+}
+#header
+{ 
+height:315px;
+width:950px;
+background:#fff url(../img/headerBg.jpg) no-repeat 100% 0;
+}
+#header img{
+margin-top:120px;
+margin-left:35px;
+}
+
+#navi
+{ 
+background:#867474;
+}
+#sidebar
+{ 
+width:165px;
+padding:50px 10px 0 25px;
+float:left;
+}
+#sidebar li{
+margin-bottom:25px;
+}
+#sidebar a{
+background:url(../img/square.gif) 0 50% no-repeat;
+padding-left:20px;
+}
+#main{
+padding:50px;
+width:650px; 
+background:#95605f;
+float:left;
+}
+h1{
+color:#FFF;
+font-size:1.2em;
+border-bottom:1px solid #FFF;
+font-weight:normal;
+}
+h2{
+margin-top:50px;
+}
+h3{
+color:#FFF;
+font-size:1em;
+font-weight:normal;
+margin:30px 0 5px;
+padding:1px 0 1px 10px;
+border-left:3px solid #FFF;
+}
+p{
+color:#FFF;
+font-size:..9em;
+line-height:2em}
+#footer
+{ 
+background:#b5abaa;
+clear:both;
+}
+
+
