@@ -11,7 +11,7 @@
       integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
       crossorigin="anonymous"
     ></script>
-    
+
     <script src="js/index/index.js" type="text/javascript"></script>
     <script src="js/index/schedule.js" type="text/javascript"></script>
   </head>
@@ -39,11 +39,14 @@
       <h5>LeetCode Practice Records</h5>
       <div>
         <div>
-          <button>Prev</button>
+          <button onclick="initMonth('prev')">Prev</button>
         </div>
         <div id="month"></div>
         <div>
-          <button>Next</button>
+          <button onclick="initMonth('next')">Next</button>
+        </div>
+        <div>
+          <button onclick="initMonth()">reset</button>
         </div>
       </div>
       <table id="schedule">
