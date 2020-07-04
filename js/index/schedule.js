@@ -113,6 +113,6 @@ $(document).ready(function () {
   initMonth();
 });
 
-// TODO: string number check
-// Null data protect, when next month does not exist
+// TODO:
+// When no data for some day, the width of cell collapse
 // color design

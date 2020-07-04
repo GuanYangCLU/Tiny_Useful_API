@@ -138,7 +138,7 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: true,
+          checked: false,
           date: 6,
           notes: [
             {
@@ -149,7 +149,7 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: true,
+          checked: false,
           date: 7,
           notes: [
             {

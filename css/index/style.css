@@ -32,6 +32,7 @@
 }
 
 .notes {
+  margin: 2px;
   border: 1px solid darkorange;
   border-radius: 5px;
 }
