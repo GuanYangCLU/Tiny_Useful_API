@@ -52,20 +52,19 @@ function initSchedule(month) {
 }
 
 function getContent({ year, month }) {
-  jQuery.getJSON("leetCodeInfo.json", function (data) {
-    var item = data[year][month - 1]; // arr with month day data
-    var firstDateTime = year + "-" + month + "-01 00:01";
-    var firstDay = new Date(firstDateTime).getDay();
-    for (var i = 0; i < firstDay; i++) {
-      item.unshift("");
-    }
-    var tail = 7 - (item.length % 7);
-    for (var j = 0; j < tail; j++) {
-      item.push("");
-    }
-    // maybe 28 or 35 or 42 length
-    return getMonthContent(item);
-  });
+  var data = getLeetCodeData(); // because json cannot upload
+  var item = data[year][month - 1]; // arr with month day data
+  var firstDateTime = year + "-" + month + "-01 00:01";
+  var firstDay = new Date(firstDateTime).getDay();
+  for (var i = 0; i < firstDay; i++) {
+    item.unshift("");
+  }
+  var tail = 7 - (item.length % 7);
+  for (var j = 0; j < tail; j++) {
+    item.push("");
+  }
+  // maybe 28 or 35 or 42 length
+  return getMonthContent(item);
 }
 
 function getMonthContent(item) {
