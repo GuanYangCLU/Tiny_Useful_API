@@ -10,3 +10,19 @@
   margin-left: 16px;
   margin-right: 16px;
 }
+
+.dateNum {
+  text-align: right;
+}
+
+.date .unavailable {
+  background-color: darkgrey;
+}
+
+.date .checked {
+  background-color: aqua;
+}
+
+.notes {
+  border-radius: 5px;
+}

@@ -5,8 +5,9 @@ function changeMonth(month) {
 
 function initMonth(month) {
   console.log("init month called, month: ", month);
-  $("#month").html(getSchedule(month).title);
-  $("#schedule").html(getSchedule(month).content);
+  var res = getSchedule(month);
+  $("#month").html(res.title);
+  $("#schedule").html(res.content);
 }
 
 function getSchedule(month) {
@@ -113,3 +114,5 @@ $(document).ready(function () {
 });
 
 // TODO: string number check
+// Null data protect, when next month does not exist
+// color design
