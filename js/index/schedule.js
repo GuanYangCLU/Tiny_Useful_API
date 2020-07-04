@@ -73,7 +73,7 @@ function getMonthContent(item) {
   var weeks = item.length / 7;
   for (var i = 0; i < weeks; i++) {
     weekItem = item.slice(i * 7, (i + 1) * 7);
-    template += "<tr>" + getWeekContent(weekItem) + "</tr>";
+    template += '<tr class="tableRow">' + getWeekContent(weekItem) + "</tr>";
   }
   return template;
 }

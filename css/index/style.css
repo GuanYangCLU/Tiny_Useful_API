@@ -11,18 +11,27 @@
   margin-right: 16px;
 }
 
+.tableRow {
+  margin: 4px;
+}
+
 .dateNum {
   text-align: right;
 }
 
-.date .unavailable {
+.date {
+  border: 1px solid black;
+}
+
+.unavailable {
   background-color: darkgrey;
 }
 
-.date .checked {
+.checked {
   background-color: aqua;
 }
 
 .notes {
+  border: 1px solid darkorange;
   border-radius: 5px;
 }
