@@ -1,20 +1,25 @@
 function changeMonth(month) {
+  console.log("change month called, month: ", month);
   initMonth(month);
 }
 
 function initMonth(month) {
+  console.log("init month called, month: ", month);
   $("#month").html(getScheduleTitle(month));
 }
 
 function getScheduleTitle(month) {
+  console.log("get schedule title called, month: ", month);
   var date = new Date();
-  var year = date.getFullYear();
-  var month = date.getMonth() + 1;
+  var curYear = date.getFullYear();
+  var curMonth = date.getMonth() + 1;
   if (!!month) {
     var title = $("#month").text();
     var titleArr = title.split(" - ");
-    var curYear = Number(titleArr[0]);
-    var curMonth = Number(titleArr[1]);
+    curYear = Number(titleArr[0]);
+    curMonth = Number(titleArr[1]);
+    console.log({ title, curYear, curMonth, month });
+
     // TODO: handle NaN
     if (month === "prev") {
       if (curMonth === 1) {
@@ -34,7 +39,7 @@ function getScheduleTitle(month) {
       // TODO: input number of month
     }
   }
-  return year + " - " + month;
+  return curYear + " - " + curMonth;
 }
 
 initMonth();
