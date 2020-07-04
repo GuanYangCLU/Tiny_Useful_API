@@ -52,7 +52,7 @@ function initSchedule(month) {
 }
 
 function getContent({ year, month }) {
-  $.getJSON("js/leetCodeInfo.json", function (data) {
+  jQuery.getJSON("js/leetCodeInfo.json", function (data) {
     var item = data[year][month - 1]; // arr with month day data
     var firstDateTime = year + "-" + month + "-01 00:01";
     var firstDay = new Date(firstDateTime).getDay();
