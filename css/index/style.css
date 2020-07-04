@@ -1,3 +1,7 @@
 #leetInput {
   width: 200px;
 }
+
+.monthBar {
+  display: flex;
+}

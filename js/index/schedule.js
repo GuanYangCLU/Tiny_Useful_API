@@ -42,4 +42,8 @@ function getScheduleTitle(month) {
   return curYear + " - " + curMonth;
 }
 
-initMonth();
+// https://blog.csdn.net/weixin_42476601/article/details/81196490
+
+$(document).ready(function () {
+  initMonth();
+});
