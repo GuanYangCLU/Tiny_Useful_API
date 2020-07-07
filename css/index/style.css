@@ -17,9 +17,11 @@
 
 .dateNum {
   text-align: right;
+  margin-top: 0;
 }
 
 .date {
+  position: relative;
   border: 1px solid black;
   width: 150px;
 }
