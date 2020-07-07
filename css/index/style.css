@@ -17,13 +17,12 @@
 
 .dateNum {
   text-align: right;
-  margin-top: 0;
 }
 
 .date {
-  position: absolute;
   border: 1px solid black;
   width: 150px;
+  vertical-align: text-top;
 }
 
 .unavailable {
