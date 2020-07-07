@@ -87,7 +87,7 @@ function getLeetCodeData() {
           date: 1,
           notes: [
             {
-              content: "LeetCode 0001: Two Sum",
+              content: "LeetCode 0219: Contains Duplicate II",
             },
           ],
         },
@@ -98,7 +98,7 @@ function getLeetCodeData() {
           date: 2,
           notes: [
             {
-              content: "LeetCode 0002: Two Sum",
+              content: "LeetCode 0205: Isomorphic Strings",
             },
           ],
         },
@@ -109,7 +109,7 @@ function getLeetCodeData() {
           date: 3,
           notes: [
             {
-              content: "LeetCode 0003: Two Sum",
+              content: "LeetCode 0299: Bulls and Cows",
             },
           ],
         },
@@ -120,7 +120,7 @@ function getLeetCodeData() {
           date: 4,
           notes: [
             {
-              content: "LeetCode 0004: Two Sum",
+              content: "LeetCode 0290: Word Pattern",
             },
           ],
         },
@@ -131,18 +131,29 @@ function getLeetCodeData() {
           date: 5,
           notes: [
             {
-              content: "LeetCode 0005: Two Sum",
+              content: "LeetCode 300: Longest Increasing Subsequence",
             },
           ],
         },
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 6,
           notes: [
             {
-              content: "LeetCode 0006: Two Sum",
+              content: "LeetCode 0260: Single Number III",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: true,
+          date: 7,
+          notes: [
+            {
+              content: "LeetCode 0264: Ugly Number II",
             },
           ],
         },
@@ -150,10 +161,10 @@ function getLeetCodeData() {
           year: 2020,
           month: 7,
           checked: false,
-          date: 7,
+          date: 8,
           notes: [
             {
-              content: "LeetCode 0007: Two Sum",
+              content: "LeetCode xxxx: To Be Continued",
             },
           ],
         },
