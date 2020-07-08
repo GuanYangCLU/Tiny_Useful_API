@@ -164,6 +164,28 @@ function getLeetCodeData() {
           date: 8,
           notes: [
             {
+              content: "LeetCode 1108: Defanging an IP Address",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 9,
+          notes: [
+            {
+              content: "LeetCode 0215: Kth Largest Element in an Array",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 10,
+          notes: [
+            {
               content: "LeetCode xxxx: To Be Continued",
             },
           ],
