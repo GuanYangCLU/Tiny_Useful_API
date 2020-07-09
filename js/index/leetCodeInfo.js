@@ -193,8 +193,19 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 11,
+          notes: [
+            {
+              content: "LeetCode 0042: Trapping Rain Water",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 12,
           notes: [
             {
               content: "LeetCode xxxx: To Be Continued",
@@ -205,7 +216,7 @@ function getLeetCodeData() {
           year: 2020,
           month: 7,
           checked: false,
-          date: 12,
+          date: 13,
           notes: [
             {
               content: "LeetCode xxxx: To Be Continued",
