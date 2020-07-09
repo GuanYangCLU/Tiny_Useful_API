@@ -182,8 +182,30 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 10,
+          notes: [
+            {
+              content: "LeetCode 1281: Subtract the Product and Sum of Digits of an Integer",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 11,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 12,
           notes: [
             {
               content: "LeetCode xxxx: To Be Continued",
