@@ -204,8 +204,19 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 12,
+          notes: [
+            {
+              content: "LeetCode 0034: Find First and Last Position of Element in Sorted Array",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 13,
           notes: [
             {
               content: "LeetCode xxxx: To Be Continued",
@@ -216,7 +227,7 @@ function getLeetCodeData() {
           year: 2020,
           month: 7,
           checked: false,
-          date: 13,
+          date: 14,
           notes: [
             {
               content: "LeetCode xxxx: To Be Continued",
