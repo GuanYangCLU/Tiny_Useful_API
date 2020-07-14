@@ -237,11 +237,11 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 15,
           notes: [
             {
-              content: "LeetCode xxxx: To Be Continued",
+              content: "LeetCode 1342: Number of Steps to Reduce a Number to Zero",
             },
           ],
         },
@@ -283,19 +283,6 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 8,
-          checked: false,
-          date: 1,
-          notes: [
-            {
-              content: "LeetCode 0001: Two Sum",
-            },
-          ],
-        },
-      ],
-      [
-        {
-          year: 2020,
-          month: 9,
           checked: false,
           date: 1,
           notes: [
