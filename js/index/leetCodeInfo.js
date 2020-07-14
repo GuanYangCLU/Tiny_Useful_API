@@ -215,8 +215,19 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 13,
+          notes: [
+            {
+              content: "LeetCode 1389: Create Target Array in the Given Order",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 14,
           notes: [
             {
               content: "LeetCode xxxx: To Be Continued",
@@ -227,7 +238,40 @@ function getLeetCodeData() {
           year: 2020,
           month: 7,
           checked: false,
-          date: 14,
+          date: 15,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 16,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 17,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 18,
           notes: [
             {
               content: "LeetCode xxxx: To Be Continued",
