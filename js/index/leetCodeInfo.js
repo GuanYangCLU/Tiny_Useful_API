@@ -226,11 +226,11 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 14,
           notes: [
             {
-              content: "LeetCode xxxx: To Be Continued",
+              content: "LeetCode 1512: Number of Good Pairs",
             },
           ],
         },
