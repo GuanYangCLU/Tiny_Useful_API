@@ -248,22 +248,22 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 16,
           notes: [
             {
-              content: "LeetCode xxxx: To Be Continued",
+              content: "LeetCode 1486: XOR Operation in an Array",
             },
           ],
         },
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 17,
           notes: [
             {
-              content: "LeetCode xxxx: To Be Continued",
+              content: "LeetCode 1365: How Many Numbers Are Smaller Than the Current Number",
             },
           ],
         },
@@ -272,6 +272,72 @@ function getLeetCodeData() {
           month: 7,
           checked: false,
           date: 18,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 19,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 20,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 21,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 22,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 23,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 24,
           notes: [
             {
               content: "LeetCode xxxx: To Be Continued",
