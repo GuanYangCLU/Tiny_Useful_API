@@ -270,22 +270,22 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 18,
           notes: [
             {
-              content: "LeetCode xxxx: To Be Continued",
+              content: "LeetCode 1290: Convert Binary Number in a Linked List to Integer",
             },
           ],
         },
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 19,
           notes: [
             {
-              content: "LeetCode xxxx: To Be Continued",
+              content: "LeetCode 0093: Restore IP Addresses",
             },
           ],
         },
