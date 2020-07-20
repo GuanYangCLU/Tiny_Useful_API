@@ -296,7 +296,7 @@ function getLeetCodeData() {
           date: 20,
           notes: [
             {
-              content: "LeetCode xxxx: To Be Continued",
+              content: "LeetCode 0516: Longest Palindromic Subsequence",
             },
           ],
         },
@@ -344,6 +344,83 @@ function getLeetCodeData() {
             },
           ],
         },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 25,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 26,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 27,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 28,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 29,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 30,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 7,
+          checked: false,
+          date: 31,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
       ],
       [
         {
@@ -353,7 +430,62 @@ function getLeetCodeData() {
           date: 1,
           notes: [
             {
-              content: "LeetCode 0001: Two Sum",
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 8,
+          checked: false,
+          date: 2,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 8,
+          checked: false,
+          date: 3,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 8,
+          checked: false,
+          date: 4,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 8,
+          checked: false,
+          date: 5,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
+            },
+          ],
+        },
+        {
+          year: 2020,
+          month: 8,
+          checked: false,
+          date: 6,
+          notes: [
+            {
+              content: "LeetCode xxxx: To Be Continued",
             },
           ],
         },
