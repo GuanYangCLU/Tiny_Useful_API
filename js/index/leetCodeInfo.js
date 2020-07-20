@@ -292,7 +292,7 @@ function getLeetCodeData() {
         {
           year: 2020,
           month: 7,
-          checked: false,
+          checked: true,
           date: 20,
           notes: [
             {
