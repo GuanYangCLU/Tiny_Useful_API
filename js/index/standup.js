@@ -1,7 +1,7 @@
 function onChangeStatus() {
   $('.cell').click(function(e) {
-    console.log(e);
-    var curId = "#" + e.target.innerHtml;
+    console.log(e.target.innerText);
+    var curId = "#" + e.target.innerText;
     if (!$(curId).hasClass("checked")) {
       $(curId).attr("class", "checked");
     } else {
