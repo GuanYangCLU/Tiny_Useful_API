@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  margin: 16px;
+  padding: 4px;
+}
+
+.cell {
+  width: 25%;
+  margin: 8px;
+  padding: 2px;
+}
+
+.checked {
+  background-color: lawngreen;
+}
