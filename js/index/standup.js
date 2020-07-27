@@ -1,4 +1,5 @@
-function onChangeStatus() {
+// 等效于$(document).ready(function () {...}); 优于window.onload
+$(function () {
   $(".cell").click(function (e) {
     // console.log(e.target.innerText);
     console.log("do");
@@ -13,7 +14,7 @@ function onChangeStatus() {
       return;
     }
   });
-}
+});
 
 function onResetStatus() {
   $("#reset").click(function (e) {
